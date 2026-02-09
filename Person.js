@@ -14,7 +14,9 @@ const personSchema = new mongoose.Schema({
     papSmear: { type: Boolean, default: false },
     hpv: { type: Boolean, default: false },
     colonScreen: { type: Boolean, default: false },
-    oralScreen: { type: Boolean, default: false }
+    oralScreen: { type: Boolean, default: false },
+    icp: { type: Boolean, default: false },
+    gastricCancer: { type: Boolean, default: false }
   }
 });
 
